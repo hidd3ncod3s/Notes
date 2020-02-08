@@ -1,0 +1,92 @@
+Network dynamic mapping
+	Layer2 mapping
+	Layer3 mapping
+
+Mean Time To Identify - MTTI
+
+Goal is to reduce MTTI
+
+hypothesis based troubleshooting
+hypothesis based security - hunting
+
+Dynamic mapping
+
+Grabbing confs like forward networks?
+	Adaptive Automation
+	Grabbing information from CLI
+	Parses information from basic CLI commands.
+	Parse the output of the command and normalize the results.
+
+Dynamic documentation
+
+Three phases (Lifecycle of an Incident)
+	Detect the problem 
+	Identify the root cause of the problem
+	Fix 
+
+Solutions for detection
+	24/7 monitoring
+	Security information event management 
+
+Solutions for reporting 
+	Ticketing solutions
+
+Identify phase
+	Human open a ticket
+	T1 person runs their runbook
+	Idle time
+	Find human to find the solution 
+	Collaboration between them
+
+Tribal knowledge 
+Even a fresher has same level of knowledge as experienced about the network
+
+Swifting knowledge to the left/west
+	Swifting the knowledge of L3 engineer to L1 engineer.
+
+A typical workflow goes from left to right
+Starts from L1 to L2 to L3
+
+Netbrain executable runbook
+	- Document the troubleshooting process.
+		- With that senior engineer will shift that workload to junior engineer.
+			- What we get is automation and knowledge sharing.
+
+Codify the steps the senior person take in the process of debugging.
+
+Can provide recommended actions.
+
+Golden baseline of your network.
+	Golden baseline alert - deviation at field level.
+	
+Triggered Automation
+Interactive Automation
+Proactive Automation
+
+Triggered Automation
+	Automation trigger for servicenow ticket.
+	Triggered on alert
+
+	Diagnostic automation
+		runbook
+		Known problem diagnostic
+
+Netbrain is platform for automation.
+
+Given a servicenow ticket, it can fetch the text and extract
+the important information like IP and collect all related 
+information about that IP from the NetBrain data lake. So 
+that the person who is looking into servicenow does not have
+to do the same task again and again. 
+
+Kind of enriching the ticket with the information NetBrain has.
+
+Change Runbook
+	Change Management module
+	Special type of runbook
+	Execute step
+		Ticket snapshot before change
+		Ticket snapshot after change.
+	
+Pushing the changes fast and "check" to make sure it does not break any 
+production system.
