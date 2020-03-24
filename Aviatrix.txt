@@ -1,0 +1,181 @@
+Packet Pushers
+https://packetpushers.net/podcast/heavy-networking-507-build-and-run-a-multi-cloud-network-architecture-with-aviatrix-sponsored/
+
+
+Cloud Networking for multi-cloud
+
+MCNA - Multi Cloud Network Architecture
+
+Each and every cloud is unique and propriatory.
+	Their forwarding plane does not look like any other plane.
+
+90% of enterprises are already multi-cloud
+
+Abstraction over multiple cloud providers networking constructs.
+	Visiblity of traffic between two endpoints.
+	Azure/AWS/GCP/OCI
+
+Multi-cloud networking and security platform for the enterprises.
+
+Same but different
+	Azure - vnet
+	AWS   - VPC
+	GCP   - Global Routing
+
+Networking Constructs given by cloud providers are like Lego pieces.
+	Users of lego has to apply their imagination to build it.
+
+Aviatrix provides software platform.
+	Platform with bunch of products and services in it.
+
+1.2Gbps
+	- Encryption limitation in the cloud.
+	- You can use only one core in the instance.
+		- That puts this limitation of 1.2G
+	- Tunneling in the cloud is limited to 1.2G.
+		- Tunnel between multiple clouds
+
+Aviatrix can provide encryption upto 50Gbps
+
+Cisco Architecture
+	- Core ???
+	- Aggregation layer ??
+
+
+Why call this as Architecture ?
+	- Want to push a process around it.
+
+MCNA
+	- Abstracts networking constructs.
+	- You don't need to know the internals or differences of multiple cloud n/w architectures.
+	- Two components
+		- Aviatrix Controller - Brain
+			- Instance in public cloud market place.
+			- Management and core
+			- Controller understands
+				BGP
+				SDR - Software Defined Routing
+				Cloud APIs
+		
+		- Aviatrix Gateway
+			- Distributed / Decoupled data plane across multiple cloud
+			- EC2 appliance
+				- Providing additional features that are not provided by the cloud providers
+			
+			- Why call it Gateway (not router) ?
+				- Not just doing routing
+				- Provides various function.
+					- Basically you don't need to worry about missing feature by a single provider.
+			
+			- Embrace native constructs and provide additional features.
+			
+			- Assume you have multiple security group to manage the traffic between multiple VPC
+			  then Aviatrix reduces the complexity in managing multiple SGs.
+			  
+			- Transit based architecture.
+			
+			- Enforcer
+			
+			- Can do routing/encryption/L4 firewall.
+			
+			- L7 firewall
+				- Through partnership
+					- PAN
+					- Checkpoint
+		
+	- Repeatable architecture
+	
+	- You learn Aviatrix and deal with networking from multiple cloud providers.
+	
+	- Breakup of architecture
+		- Three pillars
+			1) Global multi-cloud networking / Networking
+				- Common data plane
+				- Repeatable architecture
+				- key characteristics
+					1. Common Consistent data plane.
+					2. Principles are same for single or multple cloud
+					3. Repeatable
+			
+			2) Security
+				- Single vendor cannot meet all the security needs of a network architecture.
+				- Features
+					- Encryption between sites / VPC
+					- Firewall
+						- ingress/egress to VPC, not inside VPC
+						- It's not easy to insert a firewall.
+							- Not easy to use Active-Active nature of Firewall vendor
+								- Equal-cost multi-path routing (ECMP)
+								- You have to enable the source NAT (SNAT) on the firewall to achieve this.	
+							- Aviatrix Gateway provide load-balancing between the firewall.
+								- Provides session stickiness
+						- Two features
+							- PCI compliance cannot be reached without L7 firewall.
+							- Two types of firewalls
+								- L4 firewall - inbuilt.
+								- L7 firewall - partnership
+							
+				- Glue security functionalities.
+					- Allow customers to bring in their existing products/policies.
+						- It is already blessed by the audit team.
+				
+				- FQDN Egress filtering
+				- Ingress routing features
+					- Works with Guardduty (threat detection from AWS)
+						- Gets the alert from Guardduty and act on that flow
+				
+				- VPN ??
+					- Terminate VPN at the cloud
+						- User VPN feature
+							- SAML based
+							- 2FA
+								- Duo/Okta
+				- Private S3 access through VIF
+					- Direct connect to AWS S3
+						- Required to open public VIF
+							- AWS will give you the IP's addresses of S3 buckets
+							  and you need to configure your on-prem device for that.
+						- Aviatrix enables customers to access S3 buckets using private VIF
+					
+			3) Operations
+				- On-prem
+					- Operations team comes with familiar tools and estabilished best practices.
+						- ping
+						- traceroute
+				
+				- Cloud constructs take away the traditional tools. This will leads to ticket escalation.
+					- Technically your L3 n/w architects are now treated as L1 operations persons.
+						- Because we need 20-30 data points to debug this issue.
+						
+					- Lack of familiar troubleshooting tools
+					
+					- Cloud problems will take long time to solve n/w problems.
+					
+					- Aviatrix Controller has lot of troubleshooting tools.
+						- flightpath tool from Aviatrix
+							- Debugging
+						
+						- Reduces Mean Time To Resolution
+						
+						- Co-pilot tool
+							- Visibility tool
+							- Provides cloud network topology diagram
+							- Information on traffic flow
+				
+				- Problem is same whether it is single cloud or multi-cloud
+
+
+Eg,
+Assume you have 10 VPC's and you dont want to use VPC Peering, and
+if you use Aviatrix transists then traffic between those VPC's will be
+handled by the Aviatrix Transists and provide additional features like
+routing, traffic routing, L4 firewall and L7 firewall.
+
+https://docs.aviatrix.com/
+https://community.aviatrix.com/
+
+AWS TGW(Transit Gateway) orchestration
+	- Limitation
+		- Number of routes it can support
+
+Metered licensing mechanism
