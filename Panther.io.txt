@@ -1,0 +1,40 @@
+Cloud-First Security - Jack Naglieri
+
+CEO of Panther
+
+Panther - Detection and prevent at cloud scale.
+
+StreamAlert creator
+	https://www.streamalert.io/
+
+Panther - SaaS. 
+	Security teams should not worry about operations.
+	Panther runs on AWS.
+	Primarily for AWS market.
+	
+Core:
+	- Take log data and make it useful.
+		- Logs are normalized.
+	- Put it in datawarehouse.
+	- Do SQL searchers
+	- Schedule your searches.
+	- Realtime pipeline - Speed
+		- Python based detection as logs come in.
+		- Can write custom detections.
+	- Panther Mantra: Speed, Scale and Flexibility.
+	- Can define the schema for log format.
+	- Datawarehouse is backed by snowflake
+
+Cloud Security:
+	- Second part of the product.
+	- Can be extended using python.
+
+Why python ?
+	- Lot of security tools are written in python
+	- May be the first language new people learn these days.
+	- Easy to test and write a simple logic.
+	- Reduces the barrier of entry to the platform.
+	- Microsoft recruited python creator
+		- cpython
+
+
