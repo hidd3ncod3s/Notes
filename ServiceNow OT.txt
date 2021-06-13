@@ -1,0 +1,61 @@
+ServiceNow OT
+
+James Destro and Dale Peterson
+
+Single source of truth , is it OT systems or ServiceNow ?
+	J: We call it unified views.
+
+ServiceNow
+	- Workflow revolution
+	
+What kind of workflows ?
+	- all incidents in IT. - tickets. Knowledge is captured.
+	- HR, onboarding, OT,...
+
+OT Asset inventory:
+https://docs.servicenow.com/bundle/quebec-servicenow-platform/page/product/configuration-management/concept/cmdb-ci-class-models-operation-technology.html
+
+Supervisory systems - reach out to all the systems.
+
+1) Who feeds the data ?
+     Field device:
+        Most may not have IP. How about getting that information ? Is it manual ?
+          Reading configuration from the operational system.
+            Reading from historian
+          Integrate with the OT player system. (rockwell, honeywell,..)
+            Good source of information comes from this.
+	      Siemens/Servicenow integrated offering:
+          https://www.businesswire.com/news/home/20210511005135/en/Siemens-Energy-Collaborates-with-ServiceNow-to-Enable-Precision-Defense-Against-Cyber-Threats-Targeting-the-Energy-Industry
+          Siemens SOC push information to Servicenow
+
+     Context about the Asset
+        Like where does this OT device is used ? Where is it used in the manufacturing line ?
+        Pull information from ERP or EAM
+        ISA95 compliance model
+        Pull information from other configuration management.
+
+     Pulling or manually inserting the partial information ?
+       Purdue level
+          https://www.zscaler.com/resources/security-terms-glossary/what-is-purdue-model-ics-security
+          Automatic(based on network architecture) or get it from other security tools.
+     Excel is the major import mechanism.
+
+     How do we get that information ?
+       Manual ?
+         Combination.
+         Soft or OS,...we use a discovery (active) agent that can look into the configuration.
+         We have an agent also.
+         Mix passive/active/agent.
+     Call it “Unified Source”
+         Allow people to enable the correction to the CMDB in service now.
+         Allow you to prioritize the source
+
+2) What do we do with that data ?
+     Killer app ?
+       How do I respond to vuln ?
+         Workflow related to that.
+       Change management ?
+         Allow NOW to capture the knowledge in change management.
+       IR workflow or playbook in servicenow ?
+         Yes.
+
