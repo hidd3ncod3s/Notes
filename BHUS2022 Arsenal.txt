@@ -1,0 +1,218 @@
+ArcherySec - Manage and Automate your Vulnerability Assessment
+	https://github.com/archerysec/archerysec
+
+CANalyse - A vehicle network analysis and attack tool
+	https://github.com/KartheekLade/CANalyse
+	
+Faceless - Deepfake detection
+	https://github.com/ManhNho/Faceless
+	
+GoTestWAF - well-known open-source WAF tester now supports API security hacking	
+	https://github.com/wallarm/gotestwaf
+
+In0ri: Open Source Defacement Detection With Deep Learning
+	https://github.com/J4FSec/In0ri
+
+MUSHIKAGO-femto: Automated Pentest & First Aid Tool for IT/OT Environments
+	https://github.com/PowderKegTech/mushikago-femto
+
+Node Security Shield - A Lightweight RASP for NodeJS Applications
+	https://github.com/DomdogSec/NodeSecurityShield
+
+ParseAndC 2.0 – We Don't Need No C Programs (for Parsing)
+	https://github.com/intel/ParseAndC
+
+ReconPal: Leveraging NLP for Infosec
+	https://github.com/pentesteracademy/reconpal
+
+SCMKit: Source Code Management Attack Toolkit
+	https://github.com/xforcered/SCMKit
+
+Siembol: An Open-Source Real-Time SIEM Tool Based on Big Data Technologies
+	https://github.com/G-Research/siembol
+	
+SMBeagle - Fileshare auditing tool
+	https://github.com/punk-security/smbeagle
+
+stegoWiper: A powerful and flexible active attack for disrupting stegomalware
+	https://github.com/mindcrypt/stegowiper
+
+unblob: Extract files from any kind of container formats
+	https://github.com/onekey-sec/unblob
+
+Vajra - Your Weapon To Cloud
+	https://github.com/r3curs1v3-pr0xy/vajra
+
+reNgine - An automated web hacking framework for web applications
+	https://github.com/yogeshojha/rengine
+
+AzureGoat : A Damn Vulnerable Azure Infrastructure
+	https://github.com/ine-labs/AzureGoat
+
+AWSGoat : A Damn Vulnerable AWS Infrastructure
+	https://github.com/ine-labs/AWSGoat
+
+LATMA - lateral movement analyzer
+	https://github.com/silverfort-open-source/latma
+
+Makes: A tool for avoiding supply chain attacks
+	https://github.com/fluidattacks/makes
+	https://github.com/dsalaza4/makes
+
+Ox4Shell - Deobfuscate Log4Shell payloads with ease
+	https://github.com/ox-eye/Ox4Shell
+
+Secureworks® Primary Refresh Token (PRT) viewer
+	
+
+Stratus Red Team, an Open-Source Adversary Emulation Tool for the Cloud
+	https://github.com/DataDog/stratus-red-team
+
+Defaultinator: An Open Source Search Tool for Default Credentials
+	https://github.com/Defaultinator/defaultinator-api
+
+FACT 4.0 - Firmware Analysis and Comparison Tool
+	https://github.com/fkie-cad/FACT_core
+
+Protecting your Crypto Asset against Malicious JS Phishing
+	https://github.com/akamai/js_api
+
+Sandboxing in Linux with zero lines of code
+	https://github.com/cloudflare/sandbox
+
+Streamlining and Automating Threat Hunting With Kestrel
+	https://github.com/opencybersecurityalliance/kestrel-lang
+
+The Mathematical Mesh
+	https://github.com/hallambaker/Mathematical-Mesh
+
+Unleash Purple Knight: Fend Off Invaders Lurking in Your Active Directory
+	https://www.purple-knight.com/request-form/ (Not an SCM link)
+
+CQPenetrationTesting Toolkit: Powerful Toolset That All Pentesters Want to Have
+	Not a open source toolkit
+	https://cqureacademy.com/blog/black-hat-europe-2020-all-of-paula-mike-and-michaels-toolkits
+
+Detecting Linux Kernel Rootkits with Tracee
+	https://github.com/aquasecurity/tracee
+
+EMBA – Open-Source Firmware Security Testing
+	https://github.com/e-m-b-a/emba
+	https://github.com/e-m-b-a/embark
+
+Glyph - An architecture independent binary analysis tool for fingerprinting functions through NLP
+	https://github.com/Xenios91/Glyph
+
+Hands-on RF Hacking 101: From Waveforms to System Takeover
+
+Objective-See's Mac Security Tools
+	https://github.com/objective-see
+
+Responding to Microsoft 365 Security Reviews Faster with Monkey365
+	https://github.com/silverhack/monkey365
+
+Wiretapping Tool to Sniff Packets Directly from LAN Cables
+
+ElfPack: ELF Binary Section Docking in Stageless Payload Delivery
+	https://github.com/dsnezhkov/elfpack
+
+HazProne : Cloud Hacking
+	https://github.com/stafordtituss/HazProne
+
+Open-Source API Firewall: New Features & Functionalities
+	https://github.com/wallarm/api-firewall
+
+SimpleRisk
+	https://github.com/simplerisk/code/tree/master/simplerisk
+
+The Dependency Combobulator
+	https://github.com/apiiro/combobulator
+
+Zuthaka: A Collaborative Free Open-Source Command & Controls (C2s) Integration Framework
+	https://github.com/pucarasec/zuthaka
+
+Cotopaxi - M2M Protocols Assessment Toolkit
+	https://github.com/Samsung/cotopaxi
+
+Hands-on RF Hacking 101: From Waveforms to System Takeover
+
+Adhrit: Android Security Suite
+	https://github.com/abhi-r3v0/Adhrit
+
+SquarePhish: Combining QR Codes and OAuth 2.0 Device Code Flow for Advanced Phishing Attacks
+	https://github.com/secureworks/squarephish
+
+Route Sixty-Sink: Connecting Application Inputs to Sinks Using Static Analysis
+	https://github.com/mandiant/route-sixty-sink
+
+Recon.Cloud - Cloud Attack Surface Management and Cloud Reconaissance
+	https://recon.cloud/ (Not a Github link)
+
+Octopii - AI-powered Personal Identifiable Information (PII) scanner
+	https://github.com/redhuntlabs/Octopii
+	
+MacAttack - A Client/Server Framework with Macro Payloads for Domain Recon and Initial Access
+	
+CrowdSec - The Network Effect of Cybersecurity
+	https://github.com/crowdsecurity/crowdsec
+
+bloodyAD
+	https://github.com/CravateRouge/bloodyAD
+
+AADInternals: The Swiss Army Knife for Azure AD & M365
+	https://github.com/Gerenios/AADInternals
+
+Suborner: A Windows Bribery for Invisible Persistence
+	https://github.com/r4wd3r/Suborner
+
+Slips: Free Software Machine Learning Tool for Network Intrusion Prevention System
+	https://github.com/stratosphereips/StratosphereLinuxIPS
+
+N3XT G3N WAF: ML based WAF with Retraining and Detainment through Honeypots
+
+
+DotDumper: Automatically Unpacking DotNet Based Malware
+	https://github.com/advanced-threat-research/DotDumper
+
+Detecting Typo-Squatting, Backdoored, Abandoned, and Other "Risky" Open-Source Packages Using Packj
+	https://github.com/ossillate-inc/packj
+
+CWE_Checker: Architecture-Independent Binary Vulnerability Analysis
+	https://github.com/fkie-cad/cwe_checker
+
+Badrats: Initial Access Made Easy
+	https://gitlab.com/KevinJClark/badrats
+	
+VulnLab Web Application Vulnerabilities Lab
+	https://github.com/Yavuzlar/VulnLab
+
+Sandbox Scryer
+
+
+PyRDP: Remote Desktop Protocol MITM for Purple Teamers
+	https://github.com/GoSecure/pyrdp
+
+Kubescape: Open-Source Kubernetes Security Single-Pane-of-Glass
+	https://github.com/armosec/kubescape
+
+IR(Inreared) BadUSB attack
+
+GoGoGadget - Post Exploitation Utilities for Embedded Systems
+	https://github.com/vigilantsys/gogogadget
+
+WhiskeySAML and Friends
+	https://github.com/secureworks/whiskeysamlandfriends
+
+SubParse - Malware Artifact and Correlation Framework
+	https://github.com/jstrosch/subparse
+
+Stop Wasting Time: Use Falco Plugins to Extend Detection with any Event Stream
+
+SharpSCCM
+	https://github.com/Mayyhem/SharpSCCM
+
+Patronus: Swiss Army Knife SAST Toolkit
+	https://github.com/th3-j0k3r/Patronus
+
+MI-X (Am I Exploitable?)
+	https://github.com/Rezilion/mi-x
