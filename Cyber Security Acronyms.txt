@@ -1,17 +1,19 @@
-EDR - Endpoint Detection and Response
-NDR - Network Detection and Response
-SIEM - Security Information and Event Management
-SASE - Secure Access Service Edge
-WAF - Web Application Firewall
-DAST - Dynamic Application Security Testing
-CDR - Content Disarm and Reconstruction
-XDR - Extended Detection and Response
-ZTNA - Zero Trust Network Access
-DLP - Data Leakage Prevention
 AV - Anti Virus
-HIPS - Host Intrusion Prevention System
-RBI - Remote browser isolation
+CAASM - Cyber Asset Attack Surface Management
+CASB - Cloud Access Security Brokers
+CDR - Content Disarm and Reconstruction
+CIEM - Cloud Infrastructure Entitlements Management
 CSPM - Cloud Security Posture Management
 CWPP - Cloud Workload Protection Platform
-CASB - Cloud Access Security Brokers
-CIEM - Cloud Infrastructure Entitlements Management
+DAST - Dynamic Application Security Testing
+DLP - Data Leakage Prevention
+EDR - Endpoint Detection and Response
+HIPS - Host Intrusion Prevention System
+NDR - Network Detection and Response
+RASP - Runtime Application Self-Protection
+RBI - Remote browser isolation
+SASE - Secure Access Service Edge
+SIEM - Security Information and Event Management
+WAF - Web Application Firewall
+XDR - Extended Detection and Response
+ZTNA - Zero Trust Network Access
