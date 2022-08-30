@@ -4,6 +4,7 @@ CASB - Cloud Access Security Brokers
 CDR - Content Disarm and Reconstruction
 CIEM - Cloud Infrastructure Entitlements Management
 CSPM - Cloud Security Posture Management
+CRQ - Cyber Risk Quantification
 CWPP - Cloud Workload Protection Platform
 DAST - Dynamic Application Security Testing
 DLP - Data Leakage Prevention
