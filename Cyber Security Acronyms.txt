@@ -17,4 +17,5 @@ SASE - Secure Access Service Edge
 SIEM - Security Information and Event Management
 WAF - Web Application Firewall
 XDR - Extended Detection and Response
+XSPM - Extended Security Posture Management
 ZTNA - Zero Trust Network Access
