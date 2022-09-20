@@ -8,6 +8,7 @@ CRQ - Cyber Risk Quantification
 CWPP - Cloud Workload Protection Platform
 DAST - Dynamic Application Security Testing
 DLP - Data Leakage Prevention
+EASM - External Attack Surface Management
 EDR - Endpoint Detection and Response
 HIPS - Host Intrusion Prevention System
 NDR - Network Detection and Response
