@@ -11,6 +11,7 @@ DLP - Data Leakage Prevention
 EASM - External Attack Surface Management
 EDR - Endpoint Detection and Response
 HIPS - Host Intrusion Prevention System
+ITDR - Identity Threat Detection and Response 
 NDR - Network Detection and Response
 RASP - Runtime Application Self-Protection
 RBI - Remote browser isolation
